@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nomcebo12-ux.github.io/making-health-human/sitemap.xml
