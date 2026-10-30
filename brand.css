@@ -1,0 +1,59 @@
+@import url('styles.css');
+
+/* MHH brand palette — navy + periwinkle + sage + warm cream */
+:root{
+  --blue:#7B83DF;
+  --periwinkle:#7B83DF;
+  --periwinkle-soft:#E8E8F8;
+  --sage:#93A997;
+  --sage-deep:#6F8976;
+  --sage-soft:#E9EFEA;
+  --cream:#FBF8F1;
+  --cream-deep:#F3ECDD;
+  --ink:#172A4A;
+  --navy:#172A4A;
+  --muted:#66736F;
+  --paper:#FFFEFA;
+  --pale:#F5F2EA;
+  --line:#DEDCD3;
+  --dark:#172A4A;
+}
+body{background:var(--paper);color:var(--navy)}
+header{background:rgba(255,254,250,.94);border-bottom-color:var(--line)}
+.brand{color:var(--navy)}
+.brand b{background:linear-gradient(135deg,var(--periwinkle),#9EA4EC);color:white}
+nav a:hover,.text-link{color:#626BC8}
+small,.card span,.resource span{color:#626BC8}
+.clean-hero{background:linear-gradient(135deg,var(--cream) 0%,#F8F5EE 52%,var(--periwinkle-soft) 100%)}
+.hero h1 em{color:var(--periwinkle)}
+.btn{background:var(--navy);color:white}
+.btn:hover{background:#263B60}
+.weekly-label{border-bottom-color:#D9D6CC}
+.home-section{background:var(--sage-soft)}
+.condition-list,.condition-row{border-color:#CBD6CD}
+.condition-row span{color:var(--sage-deep)}
+.condition-row.live:hover h3{color:#626BC8}
+.inline-topics span{background:var(--cream);border-color:#DDD7C8}
+.research-home{background:var(--navy)}
+.research-home small,.research-links span{color:#AEB3F0}
+.research-home>div>p{color:#D5D9E2}
+.research-links,.research-links a{border-color:#40516C}
+.starter-strip{background:linear-gradient(135deg,var(--periwinkle-soft),var(--cream))}
+.about{background:var(--cream-deep)}
+.home-about{background:var(--cream)}
+footer{background:var(--navy)}
+footer span{color:#D1D6DE}
+.card.live,.resource.live{border-color:#C8CBEF}
+.pale{background:var(--sage-soft)}
+.topic{background:linear-gradient(135deg,var(--periwinkle-soft),var(--cream))}
+.global,.africa-callout{background:var(--periwinkle-soft)}
+.prevention{background:var(--sage-soft)}
+.movement-section{background:#EEF1EA}
+.summary-five article>b{background:var(--periwinkle)}
+.summary-source,.summary-five article{background:#F2F1FA}
+.editorial-note{background:var(--cream);border-color:#DDD7C8}
+.whats-new,.voices{background:var(--cream)}
+.news-card{border-color:#E4DED1}
+.news-card span{color:var(--sage-deep)}
+.spotlight-month,.world-card>b{background:var(--navy)}
+@media(max-width:800px){.clean-hero{background:linear-gradient(155deg,var(--cream) 0%,var(--periwinkle-soft) 100%)}}
